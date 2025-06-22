@@ -106,5 +106,20 @@ graph TD
     E --> J[Group Database]
     I --> K[Analytics Engine]
     K --> L[Reporting Dashboard]
-👨‍💻 Developer Spotlight
-<div align="center"> <a href="https://github.com/yourusername"> <img src="https://avatars.githubusercontent.com/yourusername" width="200" style="border-radius:50%; border: 5px solid #00F7FF"> <h2>Your Name</h2> <p>Lead Developer & Architect</p> </a> <p> <a href="https://twitter.com/yourhandle"> <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"> </a> <a href="https://t.me/yourchannel"> <img src="https://img.shields.io/badge/-Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white"> </a> </p> </div>
+🚀 Quick Start
+# Clone repository
+git clone https://github.com/yourusername/Tg-Promotion-Bot.git
+cd Tg-Promotion-Bot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+nano .env  # Edit with your credentials
+
+# Initialize database
+python -c "from database.db import init_db; init_db()"
+
+# Start the bot
+python main.py
