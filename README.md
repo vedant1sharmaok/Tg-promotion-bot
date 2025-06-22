@@ -106,20 +106,31 @@ graph TD
     E --> J[Group Database]
     I --> K[Analytics Engine]
     K --> L[Reporting Dashboard]
-🚀 Quick Start
-# Clone repository
-git clone https://github.com/yourusername/Tg-Promotion-Bot.git
+## 🚀 Quick Start Guide
+
+### Prerequisites
+- Python 3.9+
+- Telegram API credentials
+- Redis (for queue management)
+- PostgreSQL (recommended)
+
+### Installation
+```bash
+# Clone with depth for faster download
+git clone --depth 1 https://github.com/yourusername/Tg-Promotion-Bot.git
 cd Tg-Promotion-Bot
 
-# Install dependencies
+# Install dependencies (consider using a virtualenv)
 pip install -r requirements.txt
 
-# Configure environment
+# Configuration setup
 cp .env.example .env
 nano .env  # Edit with your credentials
 
-# Initialize database
+# Database initialization
 python -c "from database.db import init_db; init_db()"
 
-# Start the bot
-python main.py
+# Start the system
+python main.py  # Development
+# OR for production:
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
