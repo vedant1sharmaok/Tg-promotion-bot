@@ -1,0 +1,11 @@
+pyrogram>=2.0.0
+tgcrypto
+python-dotenv
+apscheduler
+python-multipart
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pandas
+python-telegram-bot
