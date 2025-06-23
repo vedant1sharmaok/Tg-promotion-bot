@@ -5,7 +5,7 @@
   <p style="font-size: 1.5rem;">⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
   
   <!-- Animated typing with larger font and custom color -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1500&color=FF5733&center=true&width=600&height=60&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling;Real-time+Analytics" alt="Typing animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&duration=3000&pause=1500&color=FF5733&center=true&width=600&height=60&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling;Real-time+Analytics" alt="Typing animation">
   
   <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="200" style="margin-top: 20px;">
 </div>
