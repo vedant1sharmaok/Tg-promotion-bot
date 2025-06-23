@@ -5,7 +5,7 @@
   <p>⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
   
   <!-- Animated badge that works on GitHub -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&width=435&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling" alt="Typing animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=72&duration=4000&pause=1000&color=00F7FF&center=true&width=828&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling" alt="Typing animation">
   
   <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="200">
 </div>
