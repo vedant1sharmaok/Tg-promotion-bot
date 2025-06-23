@@ -9,7 +9,6 @@
   
   <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="200" style="margin-top: 20px;">
 </div>
-  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/logo.png?raw=true" width="200">
 </div>
 
 <!-- BADGES -->
