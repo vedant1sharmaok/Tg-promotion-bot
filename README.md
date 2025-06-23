@@ -1,13 +1,13 @@
-<!-- HEADER SECTION -->
+<!-- ENHANCED HEADER SECTION -->
 <div align="center">
   <!-- Static header as fallback -->
-  <h1>Tg-Promotion-Bot</h1>
-  <p>⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
+  <h1 style="font-size: 2.5rem;">Tg-Promotion-Bot</h1>
+  <p style="font-size: 1.5rem;">⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
   
-  <!-- Animated badge that works on GitHub -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=72&duration=4000&pause=1000&color=00F7FF&center=true&width=828&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling" alt="Typing animation">
+  <!-- Animated typing with larger font and custom color -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1500&color=FF5733&center=true&width=600&height=60&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling;Real-time+Analytics" alt="Typing animation">
   
-  <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="500">
+  <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="200" style="margin-top: 20px;">
 </div>
   <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/logo.png?raw=true" width="200">
 </div>
