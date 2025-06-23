@@ -1,4 +1,4 @@
-```markdown
+
 <!-- ANIMATED HEADER -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=4000&pause=1000&color=00F7FF&center=true&width=800&height=100&lines=✨+Tg-Promotion-Bot+✨;⚡+Enterprise+Telegram+Automation;🚀+Mass+Messaging+Solution;💎+By+Vedant+Sharma" alt="Animated Header">
