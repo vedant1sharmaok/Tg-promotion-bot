@@ -1,7 +1,14 @@
-
-<!-- ANIMATED HEADER -->
+<!-- HEADER SECTION -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=4000&pause=1000&color=00F7FF&center=true&width=800&height=100&lines=✨+Tg-Promotion-Bot+✨;⚡+Enterprise+Telegram+Automation;🚀+Mass+Messaging+Solution;💎+By+Vedant+Sharma" alt="Animated Header">
+  <!-- Static header as fallback -->
+  <h1>Tg-Promotion-Bot</h1>
+  <p>⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
+  
+  <!-- Animated badge that works on GitHub -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&width=435&lines=Automated+Message+Promotion;Multi-Account+Support;Intelligent+Scheduling" alt="Typing animation">
+  
+  <img src="https://raw.githubusercontent.com/vedant1sharmaok/Tg-promotion-bot/main/assets/logo.png" width="200">
+</div>
   <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/logo.png?raw=true" width="200">
 </div>
 
