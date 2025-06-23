@@ -1,136 +1,187 @@
-<!-- ANIMATED HEADER WITH TYPEWRITER EFFECT -->
+```markdown
+<!-- ANIMATED HEADER -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=4000&pause=1000&color=00F7FF&center=true&width=800&height=100&lines=🔥+Tg-Promotion-Bot+🔥;⚡+Most+Advanced+Telegram+Promotion+System;🚀+Enterprise-Grade+Mass+Messaging+Solution;💎+Multi-Account+Intelligent+Distribution" alt="Animated Header">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=4000&pause=1000&color=00F7FF&center=true&width=800&height=100&lines=✨+Tg-Promotion-Bot+✨;⚡+Enterprise+Telegram+Automation;🚀+Mass+Messaging+Solution;💎+By+Vedant+Sharma" alt="Animated Header">
+  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/logo.png?raw=true" width="200">
 </div>
 
-<!-- BADGES ROW WITH INTERACTIVE ELEMENTS -->
+<!-- BADGES -->
 <div align="center">
   
-  [![GitHub Stars](https://img.shields.io/github/stars/yourusername/Tg-Promotion-Bot?style=for-the-badge&logo=github&color=00F7FF&labelColor=0D1117)](https://github.com/yourusername/Tg-Promotion-Bot/stargazers)
-  [![GitHub Forks](https://img.shields.io/github/forks/yourusername/Tg-Promotion-Bot?style=for-the-badge&logo=github&color=00F7FF&labelColor=0D1117)](https://github.com/yourusername/Tg-Promotion-Bot/network/members)
-  [![License](https://img.shields.io/github/license/yourusername/Tg-Promotion-Bot?style=for-the-badge&logo=gnu&color=00F7FF&labelColor=0D1117)](LICENSE)
+  [![GitHub Stars](https://img.shields.io/github/stars/vedant1sharmaok/Tg-promotion-bot?style=for-the-badge&logo=github&color=00F7FF&labelColor=0D1117)](https://github.com/vedant1sharmaok/Tg-promotion-bot/stargazers)
+  [![GitHub Forks](https://img.shields.io/github/forks/vedant1sharmaok/Tg-promotion-bot?style=for-the-badge&logo=github&color=00F7FF&labelColor=0D1117)](https://github.com/vedant1sharmaok/Tg-promotion-bot/network/members)
+  [![License](https://img.shields.io/github/license/vedant1sharmaok/Tg-promotion-bot?style=for-the-badge&logo=gnu&color=00F7FF&labelColor=0D1117)](LICENSE)
   [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
   [![Pyrogram](https://img.shields.io/badge/Telegram%20API-Pyrogram-blue?style=for-the-badge)](https://docs.pyrogram.org)
 
-  <!-- DEPLOYMENT BUTTONS -->
-  [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/yourusername/Tg-Promotion-Bot)
-  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=github.com/yourusername/Tg-Promotion-Bot)
+  [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/vedant1sharmaok/Tg-promotion-bot)
+  [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-0088CC?style=for-the-badge&logo=telegram)](https://t.me/yourchannel)
   
 </div>
 
 <!-- ANIMATED DIVIDER -->
-<img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/divider.gif?raw=true" width="100%">
+<img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/divider.gif?raw=true" width="100%">
 
 ## 🌟 Feature Galaxy
 
 <table>
   <tr>
     <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/auth.png?raw=true" width=20> Smart Authentication</h3>
+      <h3><img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/icons/auth.gif?raw=true" width=20> Smart Auth</h3>
       <ul>
         <li>🔐 Session String Login</li>
         <li>📱 OTP+Password Support</li>
         <li>🔄 Auto Session Backup</li>
-        <li>🔑 Encrypted Storage</li>
+        <li>🔑 AES-256 Encryption</li>
       </ul>
     </td>
     <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/promote.png?raw=true" width=20> Promotion Engine</h3>
+      <h3><img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/icons/rocket.gif?raw=true" width=20> Promotion Engine</h3>
       <ul>
-        <li>💬 Dynamic Message Templates</li>
-        <li>🖼️ Media Attachment Support</li>
-        <li>🧩 Smart Variable Replacement</li>
-        <li>⏱️ Timezone-Aware Scheduling</li>
+        <li>💬 Dynamic Templates</li>
+        <li>🖼️ Media Attachments</li>
+        <li>⏱️ Precision Scheduling</li>
+        <li>🌐 Geo-Targeting</li>
       </ul>
     </td>
     <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/analytics.png?raw=true" width=20> Advanced Analytics</h3>
+      <h3><img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/icons/shield.gif?raw=true" width=20> Security</h3>
       <ul>
-        <li>📊 Real-time Stats Dashboard</li>
-        <li>📈 Success/Failure Heatmaps</li>
-        <li>📤 CSV/Excel Data Export</li>
-        <li>🔔 Custom Alerts</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/account.png?raw=true" width=20> Account Management</h3>
-      <ul>
-        <li>👥 Unlimited Account Binding</li>
-        <li>🔄 Automatic Load Balancing</li>
-        <li>⚡ Speed Optimization</li>
-        <li>🛡️ Proxy Support</li>
-      </ul>
-    </td>
-    <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/group.png?raw=true" width=20> Group Intelligence</h3>
-      <ul>
-        <li>🔍 Smart Group Discovery</li>
-        <li>📌 Automatic Group Filtering</li>
-        <li>📝 Member Count Analysis</li>
-        <li>⚙️ Blacklist Management</li>
-      </ul>
-    </td>
-    <td width="33%">
-      <h3><img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/icons/security.png?raw=true" width=20> Security Systems</h3>
-      <ul>
-        <li>🛡️ Automatic Rate Limiting</li>
-        <li>🚨 Flood Wait Protection</li>
+        <li>🛡️ Proxy Rotation</li>
+        <li>🚨 Flood Protection</li>
         <li>📛 Account Rotation</li>
-        <li>🔒 IP Protection</li>
+        <li>🔒 IP Obfuscation</li>
       </ul>
     </td>
   </tr>
 </table>
 
-<!-- INTERACTIVE DEMO SECTION -->
-## 🎥 Interactive Demo
+<!-- SCREENSHOTS CAROUSEL -->
+## 📸 Screenshot Showcase
+
 <div align="center">
-  <img src="https://github.com/yourusername/Tg-Promotion-Bot/blob/main/assets/demo.gif?raw=true" width="800" alt="Interactive Demo">
-  <p><em>Experience the full interactive demo on our <a href="https://demo.tg-promotion-bot.tech">live demo site</a></em></p>
+  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/screenshots/dashboard.png?raw=true" width="30%">
+  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/screenshots/campaign.png?raw=true" width="30%"> 
+  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/screenshots/analytics.png?raw=true" width="30%">
 </div>
 
-<!-- TECHNICAL ARCHITECTURE -->
 ## 🏗️ Technical Architecture
+
 ```mermaid
 graph TD
     A[User Interface] --> B[API Gateway]
-    B --> C[Authentication Service]
+    B --> C[Auth Service]
     B --> D[Campaign Manager]
     B --> E[Group Scraper]
-    C --> F[Session Storage]
-    D --> G[Message Queue]
+    C --> F[(Session DB)]
+    D --> G[[Redis Queue]]
     G --> H[Account Pool]
     H --> I[Telegram API]
-    E --> J[Group Database]
-    I --> K[Analytics Engine]
-    K --> L[Reporting Dashboard]
-## 🚀 Quick Start Guide
+    E --> J[(Group DB)]
+    I --> K[Analytics]
+    K --> L[(Metrics DB)]
+    L --> M[Dashboard]
+```
 
-### Prerequisites
-- Python 3.9+
-- Telegram API credentials
-- Redis (for queue management)
-- PostgreSQL (recommended)
+## 🚀 Quick Start
 
-### Installation
 ```bash
-# Clone with depth for faster download
-git clone --depth 1 https://github.com/yourusername/Tg-Promotion-Bot.git
-cd Tg-Promotion-Bot
+# Clone with Git
+git clone https://github.com/vedant1sharmaok/Tg-promotion-bot.git
+cd Tg-promotion-bot
 
-# Install dependencies (consider using a virtualenv)
+# Setup Virtual Environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Configuration setup
+# Configure environment
 cp .env.example .env
 nano .env  # Edit with your credentials
 
-# Database initialization
+# Initialize database
 python -c "from database.db import init_db; init_db()"
 
-# Start the system
-python main.py  # Development
-# OR for production:
-gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
+# Start the bot
+python main.py
+```
+
+## ⚙️ Configuration
+
+```ini
+# REQUIRED
+API_ID=1234567
+API_HASH=your_api_hash_here
+BOT_TOKEN=123:your_bot_token
+
+# OPTIMAL
+ADMIN_IDS=vedant1sharmaok  # Your Telegram ID
+PROXY_ENABLED=True
+PROXY_LIST=proxy1.com:1080,proxy2.com:1080
+MESSAGES_PER_HOUR=500  # Per account
+```
+
+## 👨‍💻 Developer Spotlight
+
+<div align="center">
+  <a href="https://github.com/vedant1sharmaok">
+    <img src="https://avatars.githubusercontent.com/vedant1sharmaok" width="200" style="border-radius:50%; border: 5px solid #00F7FF; box-shadow: 0 0 20px #00F7FF;">
+    <h2>Vedant Sharma</h2>
+    <p>Lead Developer & Security Architect</p>
+  </a>
+  
+  <div style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
+    <a href="https://twitter.com/yourhandle">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter">
+    </a>
+    <a href="https://t.me/yourchannel">
+      <img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram">
+    </a>
+    <a href="mailto:your@email.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail">
+    </a>
+  </div>
+  
+  <blockquote style="max-width: 600px; margin: 0 auto; padding: 15px; background: rgba(0,247,255,0.1); border-left: 4px solid #00F7FF; font-style: italic;">
+    "Building tools that automate without compromising platform integrity or user experience."
+  </blockquote>
+</div>
+
+## ⚠️ Critical Guidelines
+
+<div style="background: rgba(255,0,0,0.1); border-left: 5px solid #FF0000; padding: 20px; border-radius: 0 8px 8px 0; margin: 30px 0;">
+  <h3 style="color: #FF0000; margin-top: 0;">❗ ESSENTIAL RULES</h3>
+  
+  <ul style="padding-left: 20px;">
+    <li><strong>STRICTLY FOLLOW</strong> <a href="https://core.telegram.org/api/terms" style="color: #00F7FF;">Telegram's ToS</a></li>
+    <li><strong>MINIMUM 30 SECONDS</strong> between messages</li>
+    <li><strong>ALWAYS USE PROXIES</strong> for multiple accounts</li>
+    <li><strong>DISCLOSE AUTOMATION</strong> in group descriptions</li>
+  </ul>
+</div>
+
+## 📜 License
+
+```text
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. See the LICENSE file for details.
+
+Additional Ethical Restrictions:
+- Commercial use requires written permission
+- Must disclose automated messaging
+- No spamming or harassment
+```
+
+<!-- ANIMATED FOOTER -->
+<div align="center">
+  <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/footer.gif?raw=true" width="100%">
+  <p>© 2023 Tg-Promotion-Bot | Developed with ❤️ by <a href="https://github.com/vedant1sharmaok">Vedant Sharma</a></p>
+</div>
+```
