@@ -1,5 +1,6 @@
 
 <!-- ENHANCED HEADER SECTION -->
+<!-- ENHANCED HEADER SECTION -->
 <div align="center">
   <h1 style="font-size: 2.5rem;">Tg-Promotion-Bot</h1>
   <p style="font-size: 1.5rem;">⚡ Enterprise Telegram Automation | 🚀 Mass Messaging Solution</p>
@@ -16,13 +17,24 @@
   </div>
 </div>
 
-<!-- DEPLOYMENT BADGES -->
-<div align="center">
-  [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/vedant1sharmaok/Tg-promotion-bot)
-  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=github.com/vedant1sharmaok/Tg-promotion-bot)
-  [![Deploy on Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/vedant1sharmaok/Tg-promotion-bot)
-  [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-0088CC?style=for-the-badge&logo=telegram)](https://t.me/yourchannel)
+<!-- DEPLOYMENT BUTTONS -->
+<div align="center" style="margin: 20px 0;">
+  <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/vedant1sharmaok/Tg-promotion-bot">
+    <img src="https://img.shields.io/badge/Deploy_on_Koyeb-121212?style=for-the-badge&logo=koyeb&logoColor=white" alt="Deploy on Koyeb">
+  </a>
+  <a href="https://railway.app/new/template?template=github.com/vedant1sharmaok/Tg-promotion-bot">
+    <img src="https://img.shields.io/badge/Deploy_on_Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy on Railway">
+  </a>
+  <a href="https://render.com/deploy?repo=https://github.com/vedant1sharmaok/Tg-promotion-bot">
+    <img src="https://img.shields.io/badge/Deploy_on_Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Deploy on Render">
+  </a>
+  <a href="https://t.me/yourchannel">
+    <img src="https://img.shields.io/badge/Join_Telegram_Channel-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram">
+  </a>
 </div>
+
+<!-- ANIMATED DIVIDER -->
+<img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/divider.gif?raw=true" width="100%">
 
 <!-- ANIMATED DIVIDER -->
 <img src="https://github.com/vedant1sharmaok/Tg-promotion-bot/blob/main/assets/divider.gif?raw=true" width="100%">
