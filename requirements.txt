@@ -6,6 +6,7 @@ python-multipart
 fastapi
 uvicorn
 sqlalchemy
+psycopg2-binary
 alembic
 pandas
 python-telegram-bot
