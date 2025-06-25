@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine, Column, Integer, String, Text, Boolean, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker, relationship
+from sqlalchemy.orm import relationship
 from datetime import datetime
 
 Base = declarative_base()
@@ -18,7 +18,7 @@ class User(Base):
 class TelegramAccount(Base):
     __tablename__ = 'telegram_accounts'
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, ForeignKey('users.id'))
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"))
     session_string = Column(String, nullable=False)
     phone_number = Column(String)
     is_active = Column(Boolean, default=True)
@@ -40,7 +40,7 @@ class Group(Base):
 class MessageTemplate(Base):
     __tablename__ = 'message_templates'
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, ForeignKey('users.id'))
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"))
     name = Column(String)
     text = Column(Text)
     photo_path = Column(String)
@@ -51,8 +51,8 @@ class MessageTemplate(Base):
 class Campaign(Base):
     __tablename__ = 'campaigns'
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, ForeignKey('users.id'))
-    template_id = Column(Integer, ForeignKey('message_templates.id'))
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"))
+    template_id = Column(Integer, ForeignKey('message_templates.id', ondelete="SET NULL"))
     name = Column(String)
     is_active = Column(Boolean, default=False)
     start_time = Column(DateTime)
@@ -69,8 +69,8 @@ class Campaign(Base):
 class CampaignAccount(Base):
     __tablename__ = 'campaign_accounts'
     id = Column(Integer, primary_key=True)
-    campaign_id = Column(Integer, ForeignKey('campaigns.id'))
-    account_id = Column(Integer, ForeignKey('telegram_accounts.id'))
+    campaign_id = Column(Integer, ForeignKey('campaigns.id', ondelete="CASCADE"))
+    account_id = Column(Integer, ForeignKey('telegram_accounts.id', ondelete="CASCADE"))
     
     campaign = relationship("Campaign", back_populates="accounts")
     account = relationship("TelegramAccount", back_populates="campaigns")
@@ -78,7 +78,7 @@ class CampaignAccount(Base):
 class CampaignStat(Base):
     __tablename__ = 'campaign_stats'
     id = Column(Integer, primary_key=True)
-    campaign_id = Column(Integer, ForeignKey('campaigns.id'))
+    campaign_id = Column(Integer, ForeignKey('campaigns.id', ondelete="CASCADE"))
     timestamp = Column(DateTime, default=datetime.utcnow)
     group_id = Column(Integer)
     account_id = Column(Integer)
