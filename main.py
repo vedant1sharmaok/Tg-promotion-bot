@@ -1,4 +1,4 @@
-from pyrogram import Client, idle
+from pyrogram import Client, idle, filters
 from config.config import config
 from database.db import init_db
 from handlers.auth import login_with_session_string, login_with_otp
