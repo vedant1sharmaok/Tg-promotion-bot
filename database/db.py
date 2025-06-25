@@ -7,7 +7,25 @@ engine = create_engine(config.DB_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def init_db():
-    Base.metadata.create_all(bind=engine)
+    # Import all models to ensure they're registered with SQLAlchemy
+    from .models import (
+        User,
+        TelegramAccount,
+        Group,
+        MessageTemplate,
+        Campaign,
+        CampaignAccount,
+        CampaignStat
+    )
+    Base.metadata.create_all(bind=engine, tables=[
+        User.__table__,
+        TelegramAccount.__table__,
+        Group.__table__,
+        MessageTemplate.__table__,
+        Campaign.__table__,
+        CampaignAccount.__table__,
+        CampaignStat.__table__
+    ])
 
 def get_db():
     db = SessionLocal()
