@@ -6,6 +6,7 @@ from handlers.message import schedule_existing_campaigns
 from handlers.admin import admin_start, manage_accounts, add_template, list_campaigns
 from utilities.scraper import scrape_public_groups, update_group_members_count
 import asyncio
+import os
 import logging
 
 # Configure logging
