@@ -8,6 +8,22 @@ from utilities.scraper import scrape_public_groups, update_group_members_count
 import asyncio
 import os
 import logging
+from flask import Flask
+import threading
+
+def start_health_server():
+    app = Flask(__name__)
+
+    @app.route("/")
+    def health():
+        return "OK", 200
+
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
+# Start health server in a separate thread
+threading.Thread(target=start_health_server, daemon=True).start()
 
 # Configure logging
 logging.basicConfig(
