@@ -4,6 +4,7 @@ python-dotenv
 apscheduler
 python-multipart
 fastapi
+Flask
 uvicorn
 sqlalchemy
 psycopg2-binary
