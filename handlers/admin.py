@@ -5,11 +5,14 @@ from database.models import User, MessageTemplate, Campaign, TelegramAccount, Gr
 from config.config import config
 import json
 import os
+import logging
+logger = logging.getLogger(__name__)
 
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",")]
 
 @Client.on_message(filters.command("start"))
 async def admin_start(client: Client, message: Message):
+    logger.info(f"/start command received from user {message.from_user.id}")
     if message.from_user.id in ADMIN_IDS:
         # Show admin menu
         ...
