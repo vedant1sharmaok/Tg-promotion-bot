@@ -5,8 +5,16 @@ from database.models import User, MessageTemplate, Campaign, TelegramAccount, Gr
 from config.config import config
 import json
 
-@Client.on_message(filters.command("start") & filters.user(config.ADMIN_IDS))
-async def admin_start(client: Message, message: Message):
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",")]
+
+@Client.on_message(filters.command("start"))
+async def admin_start(client: Client, message: Message):
+    if message.from_user.id in ADMIN_IDS:
+        # Show admin menu
+        ...
+    else:
+        # Show normal user menu or message
+        await message.reply_text("Welcome to the bot! Contact admin for more features.")
     """Admin start command with menu"""
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("Manage Accounts", callback_data="manage_accounts")],
