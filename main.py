@@ -45,10 +45,10 @@ app = Client(
 )
 
 # Register handlers
-app.on_message(filters.command("start") & filters.user(config.ADMIN_IDS))(admin_start)
-app.on_message(filters.command("accounts") & filters.user(config.ADMIN_IDS))(manage_accounts)
-app.on_message(filters.command("templates") & filters.user(config.ADMIN_IDS))(add_template)
-app.on_message(filters.command("campaigns") & filters.user(config.ADMIN_IDS))(list_campaigns)
+app.on_message(filters.command("start"))(admin_start)
+app.on_message(filters.command("accounts"))(manage_accounts)
+app.on_message(filters.command("templates"))(add_template)
+app.on_message(filters.command("campaigns"))(list_campaigns)
 
 async def main():
     await app.start()
